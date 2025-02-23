@@ -260,7 +260,7 @@ var LST_palette = ["0400ff","37ff00","fff875","ffb1d7","ff0000"]
 var LST_names = ['Very Low','Low','Medium', 'High', 'Very High'];
 
 // Add color and and names
-for (var i = 0; i < 4; i++) {
+for (var i = 0; i < 5; i++) {
   legend.add(makeRow(LST_palette[i], LST_names[i]));
   }  
 
