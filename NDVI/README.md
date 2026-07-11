@@ -62,7 +62,13 @@ The project imports the Area of Interest (AOI) from a shapefile, filters Sentine
    * Date (2025)
    * Cloud cover (<10%)
 7. Create a median composite image.
-8. Calculate NDVI using:
+8. **What is NDVI?**
+
+The Normalized Difference Vegetation Index (NDVI) is one of the most widely used vegetation indices in remote sensing. It measures the presence, condition, and health of vegetation by comparing the amount of near-infrared (NIR) light reflected by plants with the amount of red light they absorb.
+
+Healthy vegetation absorbs most of the visible red light for photosynthesis and strongly reflects near-infrared light. Sparse or unhealthy vegetation reflects less near-infrared light, while water, bare soil, and built-up areas have different spectral responses. NDVI uses these differences to estimate vegetation density and vigor.
+
+9. Calculate NDVI using:
 
 ```text
 NDVI = (B8 - B4) / (B8 + B4)
