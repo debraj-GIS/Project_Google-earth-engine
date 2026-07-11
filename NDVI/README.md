@@ -122,6 +122,14 @@ NDVI/
 * Custom legend
 ---
 
+<p align="center">
+  <img src="NDVI_Snapshot.png" alt="NDVI Map" width="800">
+</p>
+
+*Figure 1. NDVI map of purba barddhaman*
+
+---
+
 ## Author
 
 **Debraj Kolya**
