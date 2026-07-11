@@ -17,6 +17,8 @@ The study compares **pre-flood** and **post-flood** soil moisture conditions and
 
 Ghatal is one of the flood-prone regions of West Bengal due to the overflow of the **Shilabati River** during the monsoon season.
 
+![Location Map](Location%20Map.jpg)
+
 ---
 
 # 🎯 Objectives
@@ -121,12 +123,12 @@ Flood-Impact-on-Soil-Moisture/
 │
 ├── 📄 Flood_Soil_moisture.ipynb
 ├── 📄 Rainfall_ghatal.ipynb
+├── 🖼️ Location Map.jpg
 ├── 🖼️ Pre_Flood_SMI.png
 ├── 🖼️ Post_Flood_SMI.png
 ├── 🖼️ Difference_SMI.png
 ├── 🖼️ Rainfall_Graph.png
-├── 📄 README.md
-└── 📄 LICENSE (Optional)
+└── 📄 README.md
 ```
 
 ---
@@ -141,7 +143,19 @@ The analysis shows that:
 - Sentinel-1 SAR successfully monitored soil moisture under cloudy monsoon conditions.
 
 ---
+##  🖼️ Pre Flood SMI Map   
 
+![Pre_Flood](Pre_Flood_SMI.png)        
+
+---
+##  🖼️ Post Flood SMI Map
+
+![Post_Flood](Post_Flood_SMI.png)
+
+---
+##  📈 Rainfall Graph
+
+![Rainfall](Rainfall_Graph.png)
 
 # 👨‍💻 Author
 
