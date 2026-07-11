@@ -50,3 +50,16 @@ Map.centerObject(aoi, 9)
 Map.addLayer(ndvi, ndvi_vis, "NDVI")
 Map
 
+#Export NDVI Map
+task = ee.batch.Export.image.toDrive(
+    image=ndvi,
+    description='NDVI_Export',
+    folder='VS_GEE_Output',          
+    fileNamePrefix='ndvi',
+    region=aoi.geometry(),
+    scale=10,                
+    maxPixels=1e13,
+    fileFormat='GeoTIFF'
+)
+task.start()
+
