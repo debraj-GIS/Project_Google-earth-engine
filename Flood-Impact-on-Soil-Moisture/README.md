@@ -153,6 +153,11 @@ The analysis shows that:
 ![Post_Flood](Post_Flood_SMI.png)
 
 ---
+##  🖼️ Difference SMI Map
+
+![Difference](Difference_SMI.png)
+
+---
 ##  📈 Rainfall Graph
 
 ![Rainfall](Rainfall_Graph.png)
