@@ -107,8 +107,6 @@ NDVI/
 │   └── District_shape_West_Bengal.shp
 │
 ├── ndvi.py
-|
-│── ndvi.tif
 │
 |── NDVI_Snapshot.png
 │
